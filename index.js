@@ -3,6 +3,7 @@ import mongoose from "mongoose";
 import dotenv from "dotenv";
 import userRouter from "./routes/user-routes.js";
 import verifyToken from "./verifyToken.js"
+
 mongoose.set("strictQuery", true);
 
 const app = Express();
